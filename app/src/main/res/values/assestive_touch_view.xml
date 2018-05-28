@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="andriod_assestive_touch">
+        <attr name="color" format="color"></attr>
+        <!-- 边长的一半 -->
+        <attr name="original_radius" format="integer"></attr>
+        <attr name="spread_radius" format="integer"></attr>
+        <attr name="icon_sourth" format="reference"></attr>
+        <attr name="icon_north" format="reference"></attr>
+        <attr name="icon_west" format="reference"></attr>
+        <attr name="icon_east" format="reference"></attr>
+        <!-- assestive touch 的定位参数 -->
+        <attr name="floatX" format="float"></attr>
+        <attr name="floatY" format="float"></attr>
+    </declare-styleable>
+</resources>
